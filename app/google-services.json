@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "263578697302",
+    "firebase_url": "https://android-hw-2.firebaseio.com",
+    "project_id": "android-hw-2",
+    "storage_bucket": "android-hw-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263578697302:android:ef758210db9ca7d21a85f7",
+        "android_client_info": {
+          "package_name": "com.github.frayeralex.activities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263578697302-2t1lrakdugbh9lrs2p429dthj69ec73o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm2giyVnvucXyyTjgpJi_yRfKRYwN47j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263578697302-2t1lrakdugbh9lrs2p429dthj69ec73o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
