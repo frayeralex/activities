@@ -1,8 +1,10 @@
 package com.github.frayeralex.activities
 
+import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
 import kotlinx.android.synthetic.main.activity_second.*
@@ -15,11 +17,11 @@ class Second : AppCompatActivity() {
         setSupportActionBar(toolbar)
     }
 
-    fun openMailApp(view: android.view.View) {
+    fun openMailApp(view: View) {
         composeEmail("Mail subject")
     }
 
-    fun composeEmail(subject: String) {
+    private fun composeEmail(subject: String) {
         val intent = Intent(Intent.ACTION_SENDTO).apply {
             data = Uri.parse("mailto:")
             putExtra(Intent.EXTRA_SUBJECT, subject)
@@ -27,6 +29,18 @@ class Second : AppCompatActivity() {
         if (intent.resolveActivity(packageManager) != null) {
             startActivity(intent)
         }
+    }
+
+    fun sendResultBackHandler(view: View) {
+        finish()
+    }
+
+    override fun finish() {
+        val intent = Intent().apply {
+            putExtra("BAR", "BAR")
+        }
+        setResult(Activity.RESULT_OK, intent)
+        super.finish()
     }
 
 }

@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Activities</string>
     <string name="next_page">Go to Second screen</string>
+    <string name="next_page_result">Go to Second screen (for result)</string>
     <string name="open_mail_app">Open mail App</string>
+    <string name="send_back_data">Send data result back</string>
     <string name="title_activity_second">Second</string>
 </resources>
