@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun startSecondActivity() {
-        val indent = Intent(this, Second::class.java)
+        val indent = Intent(this, SecondActivity::class.java)
         startActivity(indent)
     }
 
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun startSecondActivityForResult() {
-        val indent = Intent(this, Second::class.java)
+        val indent = Intent(this, SecondActivity::class.java)
         startActivityForResult(indent, REQUEST_CODE)
     }
 
