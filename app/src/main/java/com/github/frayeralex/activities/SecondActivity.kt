@@ -18,7 +18,7 @@ class SecondActivity : AppCompatActivity() {
     }
 
     fun openMailApp(view: View) {
-        composeEmail("Mail subject")
+        composeEmail(resources.getString(R.string.mail_subject))
     }
 
     private fun composeEmail(subject: String) {

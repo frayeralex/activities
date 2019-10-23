@@ -6,8 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 
-const val REQUEST_CODE = 10;
-
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,5 +38,9 @@ class MainActivity : AppCompatActivity() {
             }
         }
         super.onActivityResult(requestCode, resultCode, data)
+    }
+
+    companion object {
+        const val REQUEST_CODE = 10;
     }
 }

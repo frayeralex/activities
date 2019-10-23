@@ -5,4 +5,5 @@
     <string name="open_mail_app">Open mail App</string>
     <string name="send_back_data">Send data result back</string>
     <string name="title_activity_second">Second</string>
+    <string name="mail_subject">Awesome subject</string>
 </resources>
